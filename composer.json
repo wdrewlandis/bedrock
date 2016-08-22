@@ -41,7 +41,8 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/soil": "^3.7",
     "wpackagist-plugin/akismet": "^3.1",
-    "wpackagist-plugin/woocommerce": "^2.6"
+    "wpackagist-plugin/woocommerce": "^2.6",
+    "wpackagist-plugin/ninja-forms": "2.9.56.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

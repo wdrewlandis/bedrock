@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "111535144dceda6cc8cac4eb3d7d188b",
-    "content-hash": "5f7fea6fc55dae35580fd29e0e34b749",
+    "hash": "c98e381f5627efcda845edeab49a5ca5",
+    "content-hash": "a64c8034404bdfb79a5e8acfeb52a933",
     "packages": [
         {
             "name": "composer/installers",
@@ -404,6 +404,26 @@
             "homepage": "https://wordpress.org/plugins/akismet/"
         },
         {
+            "name": "wpackagist-plugin/ninja-forms",
+            "version": "2.9.56.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ninja-forms/",
+                "reference": "tags/2.9.56.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.56.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ninja-forms/"
+        },
+        {
             "name": "wpackagist-plugin/woocommerce",
             "version": "2.6.4",
             "source": {
@@ -414,7 +434,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/woocommerce.2.6.4.zip",
-                "reference": null,
+                "reference": "tags/2.6.4",
                 "shasum": null
             },
             "require": {
