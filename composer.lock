@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e3e4086075a4f9a90860a96b647c1ac8",
-    "content-hash": "f5afe1063e09ab6d58a4db70d88d743b",
+    "hash": "111535144dceda6cc8cac4eb3d7d188b",
+    "content-hash": "5f7fea6fc55dae35580fd29e0e34b749",
     "packages": [
         {
             "name": "composer/installers",
@@ -394,7 +394,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/akismet.3.1.11.zip",
-                "reference": null,
+                "reference": "tags/3.1.11",
                 "shasum": null
             },
             "require": {
@@ -402,6 +402,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/akismet/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "2.6.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/2.6.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.6.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce/"
         }
     ],
     "packages-dev": [
